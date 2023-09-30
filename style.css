@@ -22,6 +22,49 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  background-color: #C4DEFD;
+  background-color: #c4defd;
   color: #ffffff;
+}
+
+.theme-button {
+  border-radius: 8px;
+  background: #4f9cf9;
+  padding: 16px 24px !important;
+  display: inline-block;
+  margin-left: 24px;
+}
+
+.theme-button-two {
+  border-radius: 8px;
+  background: #ffe492;
+  padding: 16px 24px !important;
+  display: inline-block;
+  color: #043873 !important;
+  margin-left: 24px;
+}
+.theme-button img {
+  margin-left: 7px;
+}
+
+/*
+header css 
+*/
+.header-area {
+  background-color: #043873;
+  padding: 16px 0;
+}
+
+.navbar-brand span,
+.header-area .nav-link {
+  color: #fff;
+}
+
+
+.header-area .nav-link {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px; /* 127.778% */
+  padding: 16px 18px !important;
 }
